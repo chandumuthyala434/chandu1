@@ -1,0 +1,5 @@
+class Car {  // Create a class
+  constructor(brand) {  // Class constructor
+    this.carname = brand;  // Class body/properties
+  }
+}
