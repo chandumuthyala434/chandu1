@@ -1,0 +1,6 @@
+var x = document.getElementById("mySelect");
+var txt = "All options: ";
+var i;
+for (i = 0; i < x.length; i++) {
+    txt = txt + "\n" + x.options[i].text + " has index: " + x.options[i].index;
+}
